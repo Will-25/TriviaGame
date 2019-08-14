@@ -1,0 +1,37 @@
+body {
+    background-image: url("../images/memphis-style-pattern-design_1156-891.jpg");
+}
+
+.container {
+    margin-top:60px;
+    max-width:800px;
+    background-color:yellow;
+    height: 600px;
+    text-align: center;
+    
+     
+}
+h1{
+    font-family: 'Cabin Sketch';
+    font-size: 60px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+p {
+    margin-top:25px;
+}
+
+#submit {
+    margin-top:25px;
+}
+
+#questions {
+    display: none;
+}
+
+#doneContainer {
+    display:none;
+}

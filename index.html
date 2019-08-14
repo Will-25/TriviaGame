@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap" rel="stylesheet">
+    <title>Trivia Game</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>TRIVIA GAME!</h1>
+                <div class="row">
+                    <div class="col-md-12">
+                            <button type="button" id="start" class="btn btn-outline-danger">Start the game!</button>
+                            <div id="doneContainer">
+                                <div id="done">All Done!!</div>
+                                <div id="correct"></div>
+                                <div id="incorrect"></div>
+                                <div id="unanswered"></div>
+                            </div>
+                        <form id="questions"><ul>
+                            
+                            <li><p>Question 1</p>
+                                <input type="radio" name="q1" value="male"> Answer 1
+                                <input type="radio" name="q1" value="female"> Answer 2
+                                <input type="radio" name="q1" value="other"> Answer 3 
+                                <input type="radio" name="q1" value="other"> Answer 4
+
+                            </li>
+                            <li><p>Question 2</p>
+                                <input type="radio" name="q2" value="male"> Answer 1
+                                <input type="radio" name="q2" value="female"> Answer 2
+                                <input type="radio" name="q2" value="other"> Answer 3 
+                                <input type="radio" name="q2" value="other"> Answer 4
+
+                            </li>
+                            <li><p>Question 3</p>
+                                <input type="radio" name="q3" value="male"> Answer 1
+                                <input type="radio" name="q3" value="female"> Answer 2
+                                <input type="radio" name="q3" value="other"> Answer 3 
+                                <input type="radio" name="q3" value="other"> Answer 4
+
+                            </li>
+                            <li><p>Question 4</p>
+                                <input type="radio" name="q4" value="male"> Answer 1
+                                <input type="radio" name="q4" value="female"> Answer 2
+                                <input type="radio" name="q4" value="other"> Answer 3 
+                                <input type="radio" name="q4" value="other"> Answer 4
+
+                            </li>
+                            <li><p>Question 5</p>
+                                <input type="radio" name="q5" value="male"> Answer 1
+                                <input type="radio" name="q5" value="female"> Answer 2
+                                <input type="radio" name="q5" value="other"> Answer 3 
+                                <input type="radio" name="q5" value="other"> Answer 4
+
+                            </li>
+                            <li>
+                                <button type="button" id="submit" class="btn btn-outline-danger">submit</button>
+                            </li>
+                        </ul></form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="assets/javascript/app.js"></script>
+</html>
