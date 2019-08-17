@@ -26,7 +26,7 @@ $(document).ready(function () {
 
     function clock() {
         myTimer = setInterval(myClock, 1000)
-        var timeLeft = 31;
+        var timeLeft = 41;
         function myClock() {
             $("#timer").text(--timeLeft);
             if (timeLeft === 0) {
