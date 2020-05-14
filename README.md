@@ -1,12 +1,21 @@
-Trivia Game
-- This is an app that engages a user to answer 5 trivia questions correctly before the timer runs out.
+# Trivia Game
 
-- When the page is loaded, a splash screen will be visible with the name of the game, some instructions, and a button labeled start game.
+![splash screen](/assets/images/trivia1.png)
 
-- Immiediately when the button is clicked, the splash screen will disappear, the questions will be listed, and a timer will be visible, and will start counting down.
+# Description 
+-This is an app that engages a user to answer 5 trivia questions correctly before the timer runs out.
 
-- Below each question, there are a group of answers, each with a radio button. The user will use the radio buttons as input, and will hit a submit button when finished.
+# Demo
 
-- If any questions were left unanswered, it will submit anyways. If the timer reaches 0 then the game will end and all the answers will be submitted.
+You can try it yourself at https://will-25.github.io/TriviaGame/
 
-- In the final screen of the app, the results will be listed. There will be a stat for questions answered correctly, incorrectly, and unanswered. 
+# Walkthrough
+
+When the page is loaded, a splash screen will be visible with the name of the game, some instructions, and a button labeled start game. Immiediately when the button is clicked, the splash screen will disappear, the questions will be listed, a timer will be visible, and will start counting down. If the user hits submit, or the timer counts down fully, the results will be tallied.
+
+![questions](/assets/images/trivia2.png)
+
+The game uses javascript to compare user answers next to the correct answers, and the results are displayed. 
+
+![results](/assets/images/trivia3.png)
+
